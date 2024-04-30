@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+nav {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bowstudio-logo {
+   font-family: 'Mr Dafoe', cursive;
+   font-weight: 400;
+   font-style: normal;
+    font-size: 5rem;
+    color: white;
+      
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    list-style: none;
+}
+
+li {
+    padding: 1.5em;
+    font-size: 1.2rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e49bb8;
+}
+
+.header-img {
+   width: 100vw;
+   height: auto; 
+}
+
+
+
+.about-the-artist {
+    
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.about-artist-subhead {
+    font-family: 'Mr Dafoe', cursive;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 4.5rem;
+
+    width: 100%;
+    margin: 0 2em;
+    padding: 0.25em 0;
+}
+
+.about-explanation {
+    width: 100%;
+    text-align: center;
+    margin: 0 10em;
+    padding-bottom: .5em 0;
+}
+
+.bryn-whitman {
+    padding: 2em 0; 
+   width: auto;
+   height: 28em;
+
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.portfolio-subhead {
+    font-family: 'Mr Dafoe', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.5rem;
+    color: white;
+ 
+     width: 100%;
+     margin: 0 2em;
+     padding: 0.5em 0;
+ }
+
+ .img1 {
+    width: auto;
+    height: 18em;
+    border: .15em solid white;
+ }
+ .img2 {
+    width: auto;
+    height: 18em;
+    border: .15em solid white;
+ }
+ .img3 {
+    width: auto;
+    height: 18em;
+    border: .15em solid white;
+ }
+ .img4 {
+    width: auto;
+    height: 18em;
+    border: .15em solid white;
+ }
+ .img5 {
+    width: auto;
+    height: 18em;
+    border: .15em solid white;
+ }
+ .img6 {
+    width: auto;
+    height: 18em;
+    border: .15em solid white;
+ }
+
+.img-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 1em;
+    margin: 0 8em;   
+    padding-bottom: 5em;
+}
+
+.button1 {
+    padding: .5em .8em;
+    background-color: #e49bb8;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+}
+
+.button1:hover {
+    background-color: #d76492;
+}
+
+.availible-painting-header {
+    font-family: 'Mr Dafoe', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.5rem;
+ 
+     margin: 0 2em;
+     padding: 0.5em 0;
+}
+
+.img7 {
+    width: auto;
+    height: 18em;
+    border-radius: 50%;
+    border: .25em solid #d76492;
+}
+
+.img8 {
+    width: auto;
+    height: 18em;
+    border: .25em solid #d76492;
+
+}
+
+.img9 {
+    width: auto;
+    height: 18em;
+    border-radius: 50%;
+    border: .25em solid #d76492;
+}
+
+.img10 {
+    width: auto;
+    height: 18em;
+    border: .25em solid #d76492;
+
+}
+
+.availible-painting {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    gap: 1em;
+
+    margin: 0 8em;
+    padding-bottom: 3em;
+
+}
+
+
+
+.portfolio-head{
+    font-family: 'Mr Dafoe', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.5rem;
+ 
+     margin: 0 2em;
+     padding: 0.5em 0;
+}
+
+.portfolio-bio{
+    text-align: center;
+    margin: 0 10em;
+    padding-bottom: .5em 0;
+}
+
+
+.port1 {
+    width: auto;
+    height: 18em;
+    
+}
+
+.port2 {
+    width: auto;
+    height: 18em;
+}
+
+.port3 {
+    width: auto;
+    height: 18em;
+}
+
+.port4 {
+    width: auto;
+    height: 18em;
+}
+
+.port5 {
+    width: auto;
+    height: 18em;
+}
+
+.port6 {
+    width: auto;
+    height: 18em;
+}
+
+.port7 {
+    width: auto;
+    height: 18em;
+}
+
+.port8 {
+    width: auto;
+    height: 18em;
+}
+
+.port9 {
+    width: auto;
+    height: 18em;
+}
+
+.port10 {
+    width: auto;
+    height: 18em;
+}
+
+.port11 {
+    width: auto;
+    height: 18em;
+}
+
+.port12 {
+    width: auto;
+    height: 18em;
+}
+
+.port13 {
+    width: auto;
+    height: 18em;
+}
+
+.port14 {
+    width: auto;
+    height: 18em;
+}
+
+.port15 {
+    width: auto;
+    height: 18em;
+}
+
+.port16 {
+    width: auto;
+    height: 18em;
+}
+
+.port-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 1em;
+    margin: 0 8em;   
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
